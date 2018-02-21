@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <label for="num1">Number 1</label>
+      <input type="password" placeholder="Number 1" id="num1">
+      <label for="num2">Number 2</label>
+      <input placeholder="Number 2" id="num2">
+      <button>Check Guess</button>
+      <p></p>
+      <script type="text/javascript">
+         var inputs = document.querySelectorAll('input')
+         var notice = document.querySelector('p')
+         var button = document.querySelector('button')
+         
+         function guess (a,b) {
+         if (a == b) return notice.textContent = "Correct"
+          if (a < b) return notice.textContent = "A is " + (b-a) + " less than B"
+          if (a > b) return notice.textContent = "A is " + (a-b) + " greater than B"
+         }
+         
+         function onClick () {
+         let a = inputs[0].value
+          let b = inputs[1].value
+         guess(a, b)
+         }
+         
+         button.addEventListener('click', onClick);
+         
+      </script>
+   </body>
+</html>
