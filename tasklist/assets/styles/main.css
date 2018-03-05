@@ -1,0 +1,188 @@
+body, html {
+  margin: 0;
+}
+
+.row {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  color: #fff;
+}
+
+.col-1 {
+  display: block;
+  width: 10%;
+  float: left;
+}
+
+.col-2 {
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+.col-3 {
+  display: block;
+  width: 30%;
+  float: left;
+}
+
+.col-4 {
+  display: block;
+  width: 40%;
+  float: left;
+}
+
+.col-5 {
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.col-6 {
+  display: block;
+  width: 60%;
+  float: left;
+}
+
+.col-7 {
+  display: block;
+  width: 70%;
+  float: left;
+}
+
+.col-8 {
+  display: block;
+  width: 80%;
+  float: left;
+}
+
+.col-9 {
+  display: block;
+  width: 90%;
+  float: left;
+}
+
+.col-10 {
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.colhead {
+  text-align: center;
+  /* padding: 1%; */
+  font-family: impact;
+  background: #eeeeee;
+  color:#000;
+}
+
+.colbody {
+  text-align: left;
+  font-family: verdana;
+}
+
+.left {
+  display: inline;
+  float: left;
+}
+
+.right {
+  display: inline;
+  float: right;
+}
+
+img.small {
+  height: 120px;
+  width: 150px;
+}
+
+div#content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: circle;
+  webkit border -webkit-border-after: ;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 20px;
+}
+
+div#content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #009fff;
+  font-weight: bold;
+  font-family: monaco;
+}
+
+.footer {
+  background:#000;
+}
+
+.back-black {
+  background: #000;
+}
+
+.text-white {
+  color:#fff;
+}
+@media only screen and (max-width: 700px) {
+  .row {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  .col-1 {
+    display: block;
+    width: 100%;
+  }
+  .col-2 {
+    display: block;
+    width: 100%;
+  }
+  .col-3 {
+    display: block;
+    width: 100%;
+  }
+  .col-4 {
+    display: block;
+    width: 100%;
+  }
+  .col-5 {
+    display: block;
+    width: 100%;
+  }
+  .col-6 {
+    display: block;
+    width: 100%;
+  }
+  .col-7 {
+    display: block;
+    width: 100%;
+  }
+  .col-8 {
+    display: block;
+    width: 100%;
+  }
+  .col-9 {
+    display: block;
+    width: 100%;
+  }
+  .col-10 {
+    display: block;
+    width: 100%;
+  }
+}
