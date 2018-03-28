@@ -3,7 +3,7 @@ var taskID = 0
 //Use ternary operator to setup an empty array or an array with our previous session data
 var taskList = localStorage.getItem('taskList') ? JSON.parse(localStorage.getItem('taskList')) : []
 //Use jquery's each function to go over our array to rebuild the task list from cache
-jQuery.each(taskList, function(i, val) {
+$(taskList).each(function(i, val) {
   //Call our create task function
   createTask(val)
 })
