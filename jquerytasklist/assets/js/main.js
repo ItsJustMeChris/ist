@@ -3,11 +3,11 @@ $("#saveButton").click(function() {
         class: 'delete',
         id: taskID,
         text: $("#taskContent").val()
-    }).appendTo($(".tasks")[0]);
+    }).appendTo($(".tasks")[0])
 
     let checkbox = $('<input />', {
         type: 'checkbox'
-    }).appendTo(div);
+    }).appendTo(div)
 
     checkbox.click(function() {
         this.parentElement.remove()
