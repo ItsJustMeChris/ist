@@ -12,6 +12,11 @@ $("#saveButton").click(function() {
     //Create a task when save button is clicked
     createTask($("#taskContent").val())
 })
+
+$('#clearButton').click(function() {
+  $(".tasks")[0].innerHTML = ''
+  localStorage.clear()
+})
 //createTask() function
 function createTask(taskContent) {
   //Catch empty task content
