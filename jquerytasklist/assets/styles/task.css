@@ -1,0 +1,29 @@
+body {
+  background: #000;
+}
+
+.addtask {
+    margin: auto;
+}
+
+#taskContent {
+    width: 950px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    background: none;
+    color: #00ffb8;
+    border: 1px solid #fff;
+}
+
+#saveButton {
+    background: none;
+    border: none;
+    color: #00ffb8;
+    font-size: 50px;
+}
+
+.tasks {
+    font-size: 40px;
+    margin: auto;
+}
