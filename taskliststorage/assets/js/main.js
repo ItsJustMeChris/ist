@@ -12,9 +12,11 @@ $("#saveButton").click(function() {
     //Create a task when save button is clicked
     createTask($("#taskContent").val())
 })
-
+//Listen to the click event on the clear button to clear the task list and the local storage
 $('#clearButton').click(function() {
+  //Clear the task list by removing all inner html
   $(".tasks")[0].innerHTML = ''
+  //Clear the local storage
   localStorage.clear()
 })
 //createTask() function
