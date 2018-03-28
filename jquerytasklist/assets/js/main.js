@@ -11,6 +11,5 @@ $("#saveButton").click(function() {
 
     checkbox.click(function() {
         this.parentElement.remove()
-        currentTasks.splice(this.parentElement.id, 1)
     })
 })
