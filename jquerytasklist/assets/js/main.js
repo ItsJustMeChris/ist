@@ -4,7 +4,7 @@ $("#saveButton").click(function() {
         text: $("#taskContent").val()
     }).appendTo($(".tasks")[0])
 
-    let checkbox = $('<input />', {
+    $('<input />', {
         type: 'checkbox'
     }).appendTo(div).click(function() {
         this.parentElement.remove()
