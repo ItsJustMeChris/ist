@@ -14,6 +14,8 @@ $("#saveButton").click(function() {
 })
 //createTask() function
 function createTask(taskContent) {
+  //Catch empty task content
+  if (taskContent == null || taskContent == undefined || taskContent == '') { return false }
   //Add our task to our taskList array at [taskID] with value of taskContent
   taskList[taskID] = taskContent
   //Create a div element with the id of our task to make removing it from our cache easier
@@ -44,4 +46,6 @@ function createTask(taskContent) {
   localStorage.setItem('taskList', JSON.stringify(taskList))
   //Increase our taskID by 1, old IDs are irrelevant and we don't decrease
   taskID++
+  //Clear our task content value
+  $('#taskContent').val('');
 }
